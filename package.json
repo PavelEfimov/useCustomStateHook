@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "lodash": "^4.17.15",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +33,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^2.0.1",
+    "eslint": "^6.5.0",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "1.18.2"
   }
 }
